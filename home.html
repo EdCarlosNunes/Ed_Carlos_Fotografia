@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu Negócio de Fotografia</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background-color: #a4a4a4;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .navbar-brand {
+      color: #ffffff;
+      font-weight: bold;
+      float: left;
+      margin-left: 20px;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      padding-top: 60px; /* Altura da navbar + espaço extra */
+      background-color: #ffffff7b;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    .about-section {
+      display: flex;
+      align-items: center;
+    }
+    
+    .about-section img {
+      width: 200px;
+      height: auto;
+      border-radius: 5%;
+      margin-right: 20px;
+    }
+    
+    .about-section p {
+      font-size: 16px;
+    }
+
+    .container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* Estilos do iframe */
+    .map-container {
+      width: 600px;
+      height: 450px;
+      border: 0;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    
+  </style>
+</head>
+<body>
+  
+  <nav>
+    <span class="navbar-brand">Ed Carlos</span>
+    <a href="home.html">Home</a>
+    <a href="index2.html">Portfólio</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+  
+  <main>
+    <h2>Bem-vindo à minha página inicial</h2>
+    
+    <div class="about-section">
+      <img src="fotos/minha_foto.jpg" alt="Foto">
+      <p>
+        Olá! Meu nome é Ed Carlos Nunes Almeida. Sou um fotógrafo especializado em retratos corporativos. 
+        Tenho como objetivo capturar a essência e profissionalismo de cada indivíduo em suas fotos, 
+        proporcionando imagens de alta qualidade que transmitam confiança e profissionalismo.
+        <br>
+        <br>
+        Além disso, tenho experiência em fotografar casamentos, festas, eventos e muito mais. Atuo como fotógrafo há mais de um ano e sempre me esforço para dar o meu máximo, mesmo em projetos de menor porte. Acredito que tanto os clientes com necessidades mais modestas quanto aqueles com grandes demandas merecem receber o melhor atendimento possível, assim como o melhor trabalho que posso entregar.
+      </p>
+    </div>
+  </main>
+  <main>
+    <h2>Retrato corporativo</h2>
+    
+    <div class="about-section">
+      <img src="fotos/3.jpg" alt="Foto">
+      <p>
+        Um retrato corporativo é uma ferramenta poderosa para qualquer profissional ou empresa. Ele representa a imagem e a identidade da pessoa ou da organização, transmitindo confiança, profissionalismo e credibilidade. Um retrato bem-feito captura a essência do indivíduo ou da equipe, revelando sua personalidade e estabelecendo uma conexão com o público.
+        <br>
+        <br>
+        Um retrato corporativo de qualidade pode ser utilizado em uma variedade de contextos, desde sites e perfis de mídia social até materiais promocionais e publicitários. Ele ajuda a construir uma imagem positiva e a deixar uma impressão duradoura nos clientes, parceiros de negócios e colegas.
+      </p>
+    </div>
+  </main>
+  <main>
+    <h2>Avaliação e localização de atendimento</h2>
+    
+    <div class="about-section">
+      <div class="container">
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d117054.00128550791!2d-46.7845738!3d-23.5347488!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2f6bb42720cc8353%3A0x88209a40712c176!2sFot%C3%B3grafo%20Ed%20Carlos!5e0!3m2!1spt-BR!2sbr!4v1686056364719!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2023 Ed Carlos Fotografia. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
